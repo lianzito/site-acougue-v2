@@ -97,7 +97,7 @@ try {
             'description' => 'Pedido #' . $pedido_id_local . ' - Açougue Nosso',
             'externalReference' => (string)$pedido_id_local,
             // 'redirectUrl' => $baseUrl . 'index.php', // servidor local 
-            'redirectUrl' => 'https://54f6-191-13-80-193.ngrok-free.app/acougue-Asaas/index.php', // servidor gnork
+            'redirectUrl' => 'https://6bc8-191-13-80-193.ngrok-free.app/acougue-Asaas/index.php', // servidor gnork
         ]);
 
         $api_response_link = callAsaasAPI('POST', '/paymentLinks', $payment_link_data);

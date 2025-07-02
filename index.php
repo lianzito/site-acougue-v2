@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 
-<div class="p-5 mb-4 bg-light rounded-3 text-center">
+<div class="hero">
     <div class="container-fluid py-5">
         <h1 class="display-5 fw-bold">Bem-vindo ao Açougue Nosso</h1>
         <p class="fs-4">Desde 1985, oferecendo as melhores carnes com a tradição e a qualidade que sua família merece.</p>

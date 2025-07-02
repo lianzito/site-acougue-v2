@@ -27,7 +27,7 @@
     if(mysqli_num_rows($result) > 0){
         while($produto = mysqli_fetch_assoc($result)){
             echo '<div class="col">';
-            echo '  <div class="card h-100">';
+            echo '  <div class="card h-100 produto-card">';
             echo '      <img src="' . htmlspecialchars($produto['imagem']) . '" class="card-img-top" style="height: 200px; object-fit: cover;" alt="' . htmlspecialchars($produto['nome']) . '">';
             echo '      <div class="card-body d-flex flex-column">';
             echo '          <h5 class="card-title">' . htmlspecialchars($produto['nome']) . '</h5>';
@@ -37,7 +37,7 @@
             echo '              <input type="hidden" name="acao" value="add">';
             echo '              <input type="hidden" name="id" value="' . $produto['id'] . '">';
             echo '              <div class="input-group">';
-            echo '                  <input type="number" name="quantidade" class="form-control" value="1" min="1" step="0.1">';
+            echo '                  <input type="number" name="quantidade" class="form-control" value="0.1" min="0.1" step="0.1">';
             echo '                  <button type="submit" class="btn btn-danger">Adicionar</button>';
             echo '              </div>';
             echo '          </form>';

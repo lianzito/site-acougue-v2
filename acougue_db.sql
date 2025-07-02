@@ -67,21 +67,21 @@ CREATE TABLE `produtos` (
 --
 
 INSERT INTO `produtos` (`id`, `nome`, `categoria`, `descricao`, `preco`, `imagem`) VALUES
-(5, 'Picanha Premium', 'Bovino', 'Peça de picanha selecionada, ideal para churrasco.', 89.90, 'imagens/picanha.jpg'),
-(6, 'Contrafilé (Peça)', 'Bovino', 'Capa de gordura uniforme, carne macia e suculenta.', 65.50, 'imagens/contrafile.jpg'),
-(7, 'Fraldinha', 'Bovino', 'Corte com fibras longas, ideal para assados e grelhados.', 58.00, 'imagens/fraldinha.jpg'),
-(8, 'Maminha', 'Bovino', 'Carne muito macia e suculenta, perfeita para o dia a dia.', 62.70, 'imagens/maminha.jpg'),
-(9, 'Costela Bovina em Tira', 'Bovino', 'Perfeita para cozidos longos e churrasco de bafo.', 45.70, 'imagens/costela.jpg'),
-(10, 'Linguiça Toscana Apimentada', 'Suíno', 'Linguiça de porco fresca com um toque de pimenta.', 32.50, 'imagens/linguica.jpg'),
-(11, 'Costelinha Suína BBQ', 'Suíno', 'Já temperada e pronta para ir ao forno ou churrasqueira.', 49.90, 'imagens/costelinha_suina.jpg'),
-(12, 'Lombo Suíno Fatiado', 'Suíno', 'Fatias prontas para grelhar, carne magra e saborosa.', 38.00, 'imagens/lombo.jpg'),
-(13, 'Pancetta (Barriga de Porco)', 'Suíno', 'Ideal para pururuca, torresmo ou assados lentos.', 35.20, 'imagens/pancetta.jpg'),
-(14, 'Bisteca Suína', 'Suíno', 'Corte clássico e versátil para fritar ou grelhar.', 29.80, 'imagens/bisteca.jpg'),
-(15, 'Asa de Frango Temperada', 'Aves', 'Asinhas de frango com tempero especial da casa.', 22.00, 'imagens/asa_frango.jpg'),
-(16, 'Coração de Frango no Espeto', 'Aves', 'Espetos prontos para o seu churrasco, um clássico.', 25.50, 'imagens/coracao_frango.jpg'),
-(17, 'Filé de Peito de Frango', 'Aves', 'Peito de frango sem osso e sem pele, muito saudável.', 24.80, 'imagens/file_frango.jpg'),
-(18, 'Coxinha da Asa (Drumette)', 'Aves', 'A parte mais carnuda da asa, ótima para fritar.', 26.90, 'imagens/coxinha_asa.jpg'),
-(19, 'Sobrecoxa Desossada', 'Aves', 'Suculenta e sem ossos, perfeita para assar ou grelhar.', 28.50, 'imagens/sobrecoxa.jpg');
+(5, 'Picanha Premium', 'Bovino', 'Peça de picanha selecionada, ideal para churrasco.', 89.90, 'imagens/picanha.webp'),
+(6, 'Contrafilé (Peça)', 'Bovino', 'Capa de gordura uniforme, carne macia e suculenta.', 65.50, 'imagens/contrafile.webp'),
+(7, 'Fraldinha', 'Bovino', 'Corte com fibras longas, ideal para assados e grelhados.', 58.00, 'imagens/fraldinha.webp'),
+(8, 'Maminha', 'Bovino', 'Carne muito macia e suculenta, perfeita para o dia a dia.', 62.70, 'imagens/maminha.webp'),
+(9, 'Costela Bovina em Tira', 'Bovino', 'Perfeita para cozidos longos e churrasco de bafo.', 45.70, 'imagens/costela.webp'),
+(10, 'Linguiça Toscana Apimentada', 'Suíno', 'Linguiça de porco fresca com um toque de pimenta.', 32.50, 'imagens/linguica.webp'),
+(11, 'Costelinha Suína BBQ', 'Suíno', 'Já temperada e pronta para ir ao forno ou churrasqueira.', 49.90, 'imagens/costelinha_suina.webp'),
+(12, 'Lombo Suíno Fatiado', 'Suíno', 'Fatias prontas para grelhar, carne magra e saborosa.', 38.00, 'imagens/lombo.webp'),
+(13, 'Pancetta (Barriga de Porco)', 'Suíno', 'Ideal para pururuca, torresmo ou assados lentos.', 35.20, 'imagens/pancetta.webp'),
+(14, 'Bisteca Suína', 'Suíno', 'Corte clássico e versátil para fritar ou grelhar.', 29.80, 'imagens/bisteca.webp'),
+(15, 'Asa de Frango Temperada', 'Aves', 'Asinhas de frango com tempero especial da casa.', 22.00, 'imagens/asa_frango.webp'),
+(16, 'Coração de Frango no Espeto', 'Aves', 'Espetos prontos para o seu churrasco, um clássico.', 25.50, 'imagens/coracao_frango.webp'),
+(17, 'Filé de Peito de Frango', 'Aves', 'Peito de frango sem osso e sem pele, muito saudável.', 24.80, 'imagens/file_frango.webp'),
+(18, 'Coxinha da Asa (Drumette)', 'Aves', 'A parte mais carnuda da asa, ótima para fritar.', 26.90, 'imagens/coxinha_asa.webp'),
+(19, 'Sobrecoxa Desossada', 'Aves', 'Suculenta e sem ossos, perfeita para assar ou grelhar.', 28.50, 'imagens/sobrecoxa.webp');
 
 -- --------------------------------------------------------
 

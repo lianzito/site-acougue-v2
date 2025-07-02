@@ -1,4 +1,5 @@
 **Açougue Nosso - E-commerce em PHP**
+
 Este projeto é um sistema de e-commerce completo para um açougue fictício, o "Açougue Nosso", com uma tradição que remonta a 1985. O sistema foi desenvolvido em PHP puro, focado em ser uma solução funcional e didática para demonstrar a criação de uma loja virtual com integração a um gateway de pagamento real.
 
 **Principais Funcionalidades**
